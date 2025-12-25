@@ -1,0 +1,3 @@
+ticket_id,complaint_text,predicted_category,confidence,routed_to,status,created_at
+TCK-251225-0001,my subscription fee is paid. however it is not reflecting in the app,Billing,0.701,Finance Department,Assigned,25-12-25 22:48:40
+TCK-251225-0002,I get inappropriate ads while using the app,Other,0.424,Manual Review Queue,Pending Review,25-12-25 22:51:30

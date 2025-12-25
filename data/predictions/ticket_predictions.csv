@@ -1,0 +1,16 @@
+ticket_id,complaint_text,predicted_category,confidence,routed_to,status,created_at
+TCK-251224-0001,"help me with my refund. it has been 10 days and i have not received refund yet
+",Other,0.246,Manual Review Queue,Pending Review,2025-12-24 23:05:38
+TCK-251224-0002,"product is faulty. i bought the product through online. when i unpacked and switched it on it is not working. i am unable to find the root cause. give me replacement or refund
+",Product Issue,0.963,Product Team,Assigned,2025-12-24 23:07:42
+TCK-251224-0003,unable to login to account. account locked,Account Management,0.996,Account Services,Assigned,2025-12-24 23:21:55
+TCK-251224-0004,product with expired license. unacceptable!!,Product Issue,0.975,Product Team,Assigned,2025-12-24 23:31:03
+TCK-251224-0005,,Other,0.241,Manual Review Queue,Pending Review,2025-12-24 23:41:08
+TCK-251224-0006,123848593840394-9-023940384275893284-03294-02394832,Other,0.241,Manual Review Queue,Pending Review,2025-12-24 23:47:26
+TCK-251224-0007,hi how do you do? how is the weather today?,Other,0.241,Manual Review Queue,Pending Review,2025-12-24 23:48:07
+TCK-251225-0001,unable reach service desk urgent pls help,Other,0.472,Manual Review Queue,Pending Review,2025-12-25 00:35:35
+TCK-251225-0002,invoice generate purchase product unable track delivary,Product Issue,0.6,Product Team,Assigned,2025-12-25 00:36:27
+TCK-251225-0003,invoice generate purchase product unable track delivery,Product Issue,0.6,Product Team,Assigned,2025-12-25 00:36:43
+TCK-251225-0004,invoice generate payment unable confirm,Billing,0.617,Finance Department,Assigned,2025-12-25 00:37:15
+TCK-251225-0005,unable login account account locked,Account Management,0.999,Account Services,Assigned,2025-12-25 00:37:57
+TCK-251225-0006,help refund day receive refund yet,Product Issue,0.815,Product Team,Assigned,2025-12-25 00:39:13
