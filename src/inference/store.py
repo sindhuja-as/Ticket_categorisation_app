@@ -14,7 +14,7 @@ def store_prediction(ticket_data: dict):
         "ticket_id": ticket_data["ticket_id"],
         "complaint_text": ticket_data["complaint_text"],
         "predicted_category": ticket_data["predicted_category"],
-        "confidence": ticket_data["confidence"],
+        "confidence": str(ticket_data["confidence"]) + ' %',
         "routed_to": ticket_data["routed_to"],
         "status":ticket_data['status'],
         "created_at": ticket_data['created_at']
