@@ -33,7 +33,7 @@ def predict_and_route(cleaned_text, complaint_text):
     # confidence
     proba = model.predict_proba(X_vec)[0]
     max_confidence = np.max(proba)
-    max_confidence = (round(float(max_confidence), 3)*100)
+    max_confidence = (round(float(max_confidence), 3 )*100)
 
     # predict
     predicted_class = model.classes_[np.argmax(proba)]
