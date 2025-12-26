@@ -33,6 +33,7 @@ def predict_and_route(cleaned_text, complaint_text):
     # confidence
     proba = model.predict_proba(X_vec)[0]
     max_confidence = np.max(proba)
+    max_confidence = (round(float(max_confidence), 3)*100)
 
     # predict
     predicted_class = model.classes_[np.argmax(proba)]
@@ -60,7 +61,7 @@ def predict_and_route(cleaned_text, complaint_text):
         "ticket_id": generate_ticket_id(),
         "complaint_text": complaint_text,
         "predicted_category": predicted_class,
-        "confidence": round(float(max_confidence), 3),
+        "confidence": max_confidence,
         "routed_to": routed_to,
         "status": status,
         "created_at": datetime.now().strftime("%y-%m-%d %H:%M:%S")
