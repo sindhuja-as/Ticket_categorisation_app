@@ -80,7 +80,7 @@ if st.session_state.page == "Home":
 
                 st.metric("Ticket ID", result["ticket_id"])
                 st.metric("Category", result["predicted_category"])
-                st.metric("Confidence", result["confidence"])
+                st.metric("Confidence", str(result["confidence"]) + " %")
                 st.metric("Routed To", result["routed_to"])
 
 # # -------------------------
